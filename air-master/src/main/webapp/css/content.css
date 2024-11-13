@@ -1,0 +1,244 @@
+/*------게시판-------*/
+.notice_cont{box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);padding:60px;background: #fff;border-radius:15px;}
+.notice_cont .type1>tbody>tr>td:nth-child(2){text-align:left;padding-left:40px}
+.notice_cont .type1>tbody>tr>td:nth-child(2) p{display:block;width:700px;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden;}
+.notice_cont .n_badge{background:#1774D0;color:#fff;padding:5px 8px;border-radius:3px;display:inline-block;margin-bottom:5px;font-size:14px;}
+
+.search_wrap{display:flex;justify-content:end;padding-bottom:40px;}
+.search_wrap form{display:flex;align-items:center}
+.search_wrap .search{border:none;background:#E8EBF6;padding:12px 20px;border-top-left-radius:3px;border-bottom-left-radius:3px;width:300px}
+.search_wrap .search::placeholder{color:#a7a7a7}
+.search_wrap .search_btn{background: linear-gradient(270deg,#00DC7A 0%,#00C3A1 33.33%,#119FFF 66.67%,#0076FF 100%);border-top-right-radius:3px;
+    border-bottom-right-radius:3px;padding:10px 9px 8px 9px;}
+
+
+/*--------login---------*/
+.login_wrap .header_txt h2{font-size:18px;padding:25px 0 0 2px;color:#dc143c}
+
+.login_cont{box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);padding:40px 0 40px 120px;background: #fff;border-radius:15px;display:flex;}
+.login_cont .login_form{width:55%}
+.login_cont .login_form>form>div{padding-bottom:30px;}
+.login_cont label{display:block;font-weight:600;font-size:18px;padding:20px 0;color:272727}
+.login_cont input{border:1px solid #DDDDDD;padding:15px 20px;border-radius:3px;width:80%}
+.login_cont .btn_login{width:80%;margin-top:30px;font-size:18px;background:linear-gradient(270deg,#00DC7A 0%,#00C3A1 33.33%,#119FFF 66.67%,#0076FF 100%);
+    border-radius:3px;padding:15px;color:#fff;box-shadow:0px 3px 7px 0px rgba(0, 0, 0, 0.2);}
+.login_cont span{display:block;font-size:15px;padding-top:40px;color:#8b8b8b}
+
+.login_cont .login_notice{border-radius:0 20px 20px 0;width:45%;background:url(../images/login_bg04.png) center center no-repeat;background-size: cover;}
+.userId{position:absolute;top:50%;transform:translate(-50%, -50%);right:14%;font-weight:500;}
+
+/*--------게시글 등록---------*/
+.register_cont{box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);padding:60px;background: #fff;border-radius:15px;}
+.register_cont .type1>tbody>tr>th{text-align:left;font-weight:500;font-size:18px;padding-left:50px;border-bottom:1px solid #dadada}
+.register_cont .type1>tbody>tr>td{text-align:left;padding-left:40px}
+.register_cont .title input{border:none;background:#F7F8FD;border-radius:3px;width:100%;padding:10px}
+.register_cont .textarea{width:100%;resize:none;background:#F7F8FD;border:none;height:250px;margin:20px 0}
+
+.btn_wrap{width:100%;text-align:right;padding-top:30px}
+.register_cont .btn_wrap input{color:#fff;background:#00C3A1;padding:8px 16px;border-radius:3px;cursor:pointer;border:none;}
+.add_txt{color:#dc143c;font-size: 14px;padding-left:15px}
+
+/*--------게시글 뷰---------*/
+.notiView_cont{box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);padding:60px;background: #fff;border-radius:15px;}
+.notiView_cont .type1>tbody>tr>th{text-align:left;font-weight:500;font-size:18px;padding-left:50px;border-bottom:1px solid #dadada}
+.notiView_cont .type1>tbody>tr>td{text-align:left;padding-left:40px}
+.notiView_cont input{border:none;background:#fff;border-radius:3px;width:100%;padding:10px}
+.notiView_cont .textarea{width:100%;resize:none;background:#fff;border:none;height:250px;margin:20px 0}
+
+.notiView_cont input:focus {outline:none;}
+
+.notice_title{transition:0.3s;font-weight:bold;text-decoration:underline;}
+.notice_title:hover{font-weight:bold;cursor:pointer;color:#1774D0}
+.page-link{color:#000;text-decoration:none;}
+.page-link:hover{color:#555;font-weight:bold;}
+
+/*--------문자서비스---------*/
+.message_cont{box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);padding:60px;background: #fff;border-radius:15px;}
+
+.tab_wrap{width:100%;padding-bottom:50px;}
+.tab_wrap ul{display:flex;width:100%}
+.tab_wrap ul li{width:calc(100% / 2);text-align:center;background:#fff;padding:15px 0;border-radius:3px;cursor:pointer;border:1px solid #e3e3e3}
+.tab_wrap ul li:first-child{margin-right:30px}
+.tab_wrap ul li.on{background: linear-gradient(270deg,#00DC7A 0%,#00C3A1 33.33%,#119FFF 66.67%,#0076FF 100%);;color:#fff}
+
+.message_cont .type1>tbody>tr>th{text-align:left;font-weight:500;font-size:18px;padding-left:50px;border-bottom:1px solid #dadada}
+.message_cont .type1>tbody>tr>td{text-align:left;padding-left:40px}
+.message_cont input{border:none;background:#F7F8FD;border-radius:3px;width:30%;padding:10px}
+
+.message_cont .ipArea input{width:auto}
+.message_cont button{color:#fff;background:#272727;padding:6px 14px;border-radius:3px;cursor:pointer;border:none;font-size:15px;margin-left:10px}
+.message_cont .btn_wrap input{color:#fff;background:#00C3A1;padding:8px 16px;border-radius:3px;cursor:pointer;border:none;width:auto;}
+
+.message_out{display:none;}
+
+/*--------메인페이지---------*/
+.main_cont{width:100%;display:flex;justify-content:space-between;padding:100px 0 0 0}
+.main_cont .mapArea, .main_cont .mainInfo{width:calc(100% / 2);}
+.main_cont .mapArea{margin-right:50px;position:relative}
+
+/*영역*/
+#map{width:100%;height:754px;background:#E8EBF6}
+.weatherInfo, .legendInfo{width:100%;height:220px;background:#fff;margin-bottom:30px;padding:15px;border-radius:5px;box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.05);}
+.areaInfo{display:flex;}
+.areaInfo>div:first-child{margin-right:30px}
+.areaInfo>div{width:calc(100%/2);height:350px;background:#fff;box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.05);border-radius:5px}
+#yesMap{display:none;position:relative}
+
+/*--------날씨 (아이콘95*95)---------*/
+.weatherInfo{position:relative;padding:15px;background:url(../images/weather/weather_bg.jpg) center center no-repeat;background-size:cover;}
+.weatherArea{width:100%;display:flex;align-items: center;justify-content:end;}
+.weatherArea #regionSelect{border:none;border-radius:3px;padding:5px 15px;width:160px;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;
+background:#fff url(../images/arrowIco.png)center right 15px no-repeat}
+.weatherArea .viewRegion{font-size:20px;font-weight:500;}
+
+.todayWeather_cont{display:flex;width:100%;justify-content:center;align-items:center;}
+.weatherInfo .temp_wrap{display:flex;align-items:end;padding:0 0 5px 20px;}
+.weatherInfo .temp_wrap span{font-size:20px;padding-bottom:5px;color:#fff}
+.weatherInfo .temp{font-weight:600;font-size:62px;color:#fff;letter-spacing:0.95px}
+
+.uploadTime{position:absolute;top:20px;left:20px;color:#e3e3e3;font-size:15px;}
+
+.list-group-item{display:flex;padding:11px 20px 0 100px;color:#fff}
+.list-group-item li{text-align:left;width:calc(100% / 4);}
+.list-group-item li p{color:#e3e3e3;padding-bottom:6px;font-size:15px;}
+.list-group-item li span{font-size:16px;font-weight:500;text-align:left;display:inline-block;}
+
+/*-------- 범례 ---------*/
+.legendInfo .legendTab ul{display:flex;flex-wrap:wrap;}
+.legendInfo .legendTab li{width:calc(100% / 3 - 7px);text-align:center;padding:5px 0;font-size:14px;border-radius:2px;cursor:pointer;background:#efefef;border:1px solid #dfdfdf}
+.legendInfo .legendTab li:not(:last-child){margin-right:7px}
+.legendInfo .legendTab li:nth-child(3){margin-right:0}
+.legendInfo .legendTab li:nth-child(-n+3){margin-bottom:7px;}
+.legendInfo .legendTab li.active{color:#fff;background:linear-gradient(270deg,#00DC7A 0%,#00C3A1 33.33%,#119FFF 66.67%,#0076FF 100%);}
+
+.legendInfo .depth_cont{padding-top:20px;}
+.legendInfo .depth_cont h5{font-weight:500;}
+.legendInfo .depth_cont span{width:16px;height:16px;border-radius:50%;display:inline-block;margin:15px 0}
+.legendInfo .depth_cont p{font-size:14px;color:#5b5b5b}
+.legendInfo .depth_cont ul{display:flex;justify-content:space-between;text-align:center;padding:0 50px}
+.legendInfo .depth_cont ul li{width:110px;background:rgb(243 243 243 / 40%);border-radius:10px;padding:15px 0;}
+.legendInfo .depth_cont ul li:nth-child(1){border:1px solid #0063C0;}
+.legendInfo .depth_cont ul li:nth-child(2){border:1px solid #0DB20D;}
+.legendInfo .depth_cont ul li:nth-child(3){border:1px solid #ffc616;}
+.legendInfo .depth_cont ul li:nth-child(4){border:1px solid #df0606;}
+/* .legendInfo .depth_cont ul li:not(:last-child){margin-right:0} */
+.legendInfo .depth_cont .blue{background:#0063C0;}
+.legendInfo .depth_cont .green{background:#0DB20D;}
+.legendInfo .depth_cont .yellow{background:#ffc616;}
+.legendInfo .depth_cont .red{background:#df0606;}
+
+.legendInfo .depth_cont ul{display:none;}
+.legendInfo .depth_cont .depth02C{display:flex;}
+
+/*-------- 미세먼지 정보 ---------*/
+.infoArea_wrap{width:100%;height:100%;background:#fff;box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    padding:60px;background: #fff;border-radius: 15px;}
+.infoTxt{padding:0 0 100px 0}
+.infoTxt h5{font-size:25px;font-weight:500;color:#0f62cc;padding-bottom:30px;}
+.infoTxt p{padding:0 0 30px 30px;display:block;word-break:keep-all;line-height:1.4;font-size:17px;position:relative;}
+.infoTxt p::before{content:"";position:absolute;top:11px;left:10px;width:10px;height:3px;background:#505050;}
+
+.infoArea_wrap .tab_wrap{padding-bottom:80px;}
+
+.behavingCont{width:100%;height:100%;background:#fff;box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background: #fff;border-radius: 15px;display:none;text-align:center;padding:0 0 100px 0}
+
+.infoArea table.type1>tbody>tr>td{height:60px}
+
+.tab_wrap02 ul{display:flex;margin:0 60px 0 60px;}
+.tab_wrap02 ul li{width:calc(100% / 5);background:#1774D0;color:#fff;border-bottom:none;padding:15px 0;margin:0 15px;border-top-left-radius:10px;border-top-right-radius:10px;cursor:pointer;}
+.tab_wrap02 ul li:last-child{margin-right:0}
+.tab_wrap02 ul li:first-child{margin-left:0}
+.tab_wrap02 ul li.on{background:#f0f0f0;color:#000;font-weight:500;}
+
+.begWrap{background:#f0f0f0;padding-top:50px;margin:0 60px;padding-bottom:80px;}
+
+.begWrap>div{display:none;}
+.begWrap .beg01{display:block;}
+    
+/*-----------메인페이지 공지사항 미리보기--------------*/
+#noticeTable{padding:20px;background:#fff url(../images/bg01.png) right 8px bottom 8px no-repeat;/* border:2px solid #ceebf5; */position:relative}
+#noticeTable .tit02{font-weight:600;font-size:21px;color:#0f62cc;line-height:1.8;padding-bottom:15px;}
+#noticeTable ul{border-bottom:1px solid #dfdfdf;width:100%;padding:10px 0;}
+#noticeTable ul .listTit{width:100%;display:block;width:100%;max-width:99%;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden;
+font-weight:500;cursor:pointer}
+#noticeTable ul .listTit a:hover{text-decoration:underline !important;font-weight:500;}
+#noticeTable ul .listDate{color:#8f8f8f;font-size:14px;display:block;width:100%;max-width:70px;white-space:nowrap;word-wrap:normal;overflow:hidden;
+padding-top:10px;}
+#noticeTable .noticeBtn{position:absolute;top:7%;right:6%;background:linear-gradient(270deg,#00DC7A 0%,#00C3A1 33.33%,#119FFF 66.67%,#0076FF 100%);border-radius:3px;padding:5px 13px}
+#noticeTable .noticeBtn a{color:#fff;font-size:15px;cursor:pointer}
+
+.listNum{display:none}
+
+/*-----------생활지수--------------*/
+.livingIndex{padding:20px;background:#fff url(../images/bg01.png) right 8px bottom 8px no-repeat;position:relative}
+.livingIndex .tit02{font-weight:600;font-size:21px;color:#0f62cc;line-height:1.8;padding-bottom:15px;}
+.livingIndex #select_area_value{border:none;border-radius:3px;padding:5px 15px;width:110px;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;
+background:#efefef url(../images/arrowIco.png)center right 15px no-repeat;position:absolute;top:7%;right:6%;}
+
+.livingCont{display:flex;flex-wrap:wrap}
+.livingCont li{width:calc(100% / 2);border:1px solid #ebebeb;width:125px;height:125px;border-radius:32%;text-align:center;padding:15px 0;font-size:15px}
+.livingCont li:nth-child(odd){margin-right:15px}
+.livingCont li:nth-child(-n+2){margin-bottom:15px}
+.livingCont li p {font-weight:500}
+.livingCont li img{padding:5px 0}
+
+/*-----------모니터링--------------*/
+.monitArea_wrap{width:100%;height:100%;background:#fff;box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    padding:60px;background: #fff;border-radius: 15px;}
+
+.monitSelect{width:100%;text-align:right;padding:15px 0 50px 0}
+.monitSelect select{border:none;width:200px;padding:11px 20px;border-radius:5px;-webkit-appearance:none;-moz-appearance:none;appearance:none;
+background:#E8EBF6 url(../images/arrowIco.png)center right 15px no-repeat}
+
+.chartTit h3{padding:20px 0 50px 0;font-size:30px;font-weight:500;color:#262626}
+
+.chartWrap>div:first-child{display:block}
+.chartWrap>div{display:none;padding:30px}
+
+.chartTab ul{display:flex;margin-top:50px}
+.chartTab ul li{width:calc(100% / 6);background:#1774D0;color:#fff;border-bottom:none;padding:15px 0;margin:0 15px;border-top-left-radius:10px;border-top-right-radius:10px;
+cursor:pointer;text-align:center}
+.chartTab ul li:last-child{margin-right:0}
+.chartTab ul li:first-child{margin-left:0}
+.chartTab ul li.on{background:#f0f0f0;color:#000;font-weight:500;}
+
+.chartWrap{background:#f0f0f0;padding:30px 0}
+
+.labelWrap{width:100%;text-align:center}
+.labelWrap ul{display:flex;justify-content:center;padding-bottom:25px;}
+.labelWrap ul li{display:flex;padding-right:20px;align-items: center;}
+.labelWrap ul li span{width:40px;height:12px;display:inline-block;margin-right:5px}
+.labelWrap ul li .bLabel{background:#93C9EE}
+.labelWrap ul li .gLabel{background:#52BF90}
+.labelWrap ul li .yLabel{background:#ffc616}
+.labelWrap ul li .rLabel{background:#df0606}
+.labelWrap ul li p{color:#767676;font-size:13px}
+
+
+/*-----------내일의 미세먼지--------------*/
+#pollutionType{border:none;border-radius:3px;padding:6px 15px;width:140px;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;
+background:#fff url(../images/arrowIco.png)center right 15px no-repeat;position:absolute;top:4%;z-index:9;left:4%;}
+.highcharts-credits{display:none !important}
+
+/*-----------시각화 자료--------------*/
+.visual_cont{width:100%;height:100%;background:#fff;box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    padding:60px;background: #fff;border-radius: 15px;}
+.visual_cont .visChart{background:#f0f0f0;padding:30px 0}
+
+.visTab ul{display:flex;margin-top:50px}
+.visTab ul li{width:calc(100% / 5);background:#1774D0;color:#fff;border-bottom:none;padding:15px 0;margin:0 15px;border-top-left-radius:10px;border-top-right-radius:10px;
+cursor:pointer;text-align:center}
+.visTab ul li:last-child{margin-right:0}
+.visTab ul li:first-child{margin-left:0}
+.visTab ul li.on{background:#f0f0f0;color:#000;font-weight:500;}
+
+.visChart{}
+.visChartImg{text-align:center;padding-top:50px}
+.visChart span{color:#1555cd;font-weight:500;font-size:20px;padding:50px 0px 16px 75px;display: block;}
+.visChart p{color:#000;padding:0 0 20px 75px;font-size:17px;line-height:1.5;word-break:keep-all;}
+
+.visChart_wrap>div{display:none}
+.visChart_wrap .visChart01{display:block}
+
+
